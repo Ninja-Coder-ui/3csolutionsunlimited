@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#page-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#gallery-wrapper {
+    padding: 0 50px 50px 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#gallery-wrapper img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 0 10px 20px 10px;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px 0 #ccc;
+    transition: all 0.5s;
+}
+
+#gallery-wrapper img:hover {
+    transform: scale(0.9);
+}
+
+#footer {
+    padding: 20px 50px;
+    text-align: center;
+    color: #fff;
+}

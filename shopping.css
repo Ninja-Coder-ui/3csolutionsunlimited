@@ -1,0 +1,25 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.c-dropdown {
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    min-width: 240px;
+}
+
+.c-dropdown.is-active {
+    display: block;
+    z-index: 100;
+}
+
+.c-btn-delete {
+    cursor: pointer;
+}
+
+.root {
+    padding-top: 80px;
+}

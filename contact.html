@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>3csolutionunlimited</title>
+    <!--=================Footer Section=============================-->
+
+    <!--=================Footer Section=============================-->
+
+    <link rel="icon" type="image/x-icon" href="NewLogo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <script src="contact.js"></script>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <input type="checkbox" id="show-search" />
+            <input type="checkbox" id="show-menu" />
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i
+        ></label>
+            <div class="content">
+                <div class="logo">
+                    <a href="home.html"><img src="NewLogo.png" alt="logo" /></a>
+                </div>
+                <ul class="links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <!--<li>
+            <a href="#" class="desktop-link" style="height: 2px; width: 5px;">Features</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Features</label>
+            <ul>
+              <li><a href="#">Drop Menu 1</a></li>
+              <li><a href="#">Drop Menu 2</a></li>
+              <li><a href="#">Drop Menu 3</a></li>
+              <li><a href="#">Drop Menu 4</a></li>
+            </ul>
+          </li>-->
+                    <li>
+                        <a href="#" class="desktop-link">Services</a>
+                        <input type="checkbox" id="show-services" />
+                        <label for="show-services">Services</label>
+                        <ul>
+                            <li><a href="Shopping.html">Books & Services</a></li>
+                            <li><a href="#">Audio Narration & Dubbing</a></li>
+                            <li><a href="#">Engagement & Wedding</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <!--<li>
+                <a href="#" class="desktop-link">More Items</a>
+                <input type="checkbox" id="show-items">
+                <label for="show-items">More Items</label>
+                <ul>
+                  <li><a href="#">Sub Menu 1</a></li>
+                  <li><a href="#">Sub Menu 2</a></li>
+                  <li><a href="#">Sub Menu 3</a></li>
+                </ul>
+              </li>-->
+                        </ul>
+                    </li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <label for="show-search" class="search-icon"><i class="fas fa-search"></i
+        ></label>
+            <form action="#" class="search-box">
+                <input type="text" placeholder="Type Something to Search..." required />
+                <button type="submit" class="go-icon">
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </button>
+            </form>
+        </nav>
+    </div>
+    <div class="container-form">
+        <span class="big-circle"></span>
+        <img src="img/shape.png" class="square" alt="" />
+        <div class="form">
+            <div class="contact-info">
+                <h3 class="title">Let's get in touch</h3>
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolorum adipisci recusandae praesentium dicta!
+                </p>
+
+                <div class="info">
+                    <div class="information">
+                        <img src="img/location.png" class="icon" alt="" />
+                        <p>92 Cherry Drive Uniondale, NY 11553</p>
+                    </div>
+                    <div class="information">
+                        <img src="img/email.png" class="icon" alt="" />
+                        <p>lorem@ipsum.com</p>
+                    </div>
+                    <div class="information">
+                        <img src="img/phone.png" class="icon" alt="" />
+                        <p>123-456-789</p>
+                    </div>
+                </div>
+
+                <div class="social-media">
+                    <p>Connect with us :</p>
+                    <div class="social-icons">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+
+                <form action="mailto:raushanrauna2002@gmail.com" method="post">
+                    <h3 class="title">Contact us</h3>
+                    <div class="input-container">
+                        <input type="text " name="name " class="input" placeholder="Name " required />
+                    </div>
+                    <div class="input-container">
+                        <input type="email " name="email " class="input" placeholder="Email " required />
+                    </div>
+                    <div class="input-container">
+                        <input type="tel " name="contact " class="input" placeholder="Contact Number " required />
+                    </div>
+                    <div class="input-container textarea">
+                        <textarea name="message " class="input" placeholder="Enter Your Message " required></textarea>
+                    </div>
+                    <button type="submit" onclick="sendEmail()">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+    <footer>
+        <div class="footer" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                        <h3>Lorem Ipsum</h3>
+                        <ul>
+                            <li><a href="#"> Lorem Ipsum </a></li>
+                            <li><a href="#"> Lorem Ipsum </a></li>
+                            <li><a href="#"> Lorem Ipsum </a></li>
+                            <li><a href="#"> Lorem Ipsum </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                        <h3>Lorem Ipsum</h3>
+                        <ul>
+                            <li><a href="#"> Lorem Ipsum </a></li>
+                            <li><a href="#"> Lorem Ipsum </a></li>
+                            <li><a href="#"> Lorem Ipsum </a></li>
+                            <li><a href="#"> Lorem Ipsum </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                        <h3>Lorem Ipsum</h3>
+                        <ul>
+                            <li><a href="#"> Lorem Ipsum </a></li>
+                            <li><a href="#"> Lorem Ipsum </a></li>
+                            <li><a href="#"> Lorem Ipsum </a></li>
+                            <li><a href="#"> Lorem Ipsum </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                        <h3>Lorem Ipsum</h3>
+                        <ul>
+                            <li><a href="#"> Lorem Ipsum </a></li>
+                            <li><a href="#"> Lorem Ipsum </a></li>
+                            <li><a href="#"> Lorem Ipsum </a></li>
+                            <li><a href="#"> Lorem Ipsum </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <h3>Lorem Ipsum</h3>
+                        <ul>
+                            <li>
+                                <div class="input-append newsletter-box text-center">
+                                    <input type="text" class="full text-center" placeholder="Email " />
+                                    <button class="btn bg-gray" type="button">
+                      Lorem ipsum <i class="fa fa-long-arrow-right"> </i>
+                    </button>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="social">
+                            <li>
+                                <a href="#"> <i class="fa fa-facebook">   </i> </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-twitter">   </i> </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-google-plus">   </i> </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-pinterest">   </i> </a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-youtube">   </i> </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </div>
+        <!--/.footer-->
+
+        <div class="footer-bottom">
+            <div class="footer-container">
+                <p class="pull-left">
+                    Copyright © 2022 Online Tutorials. All Rights Reserved.
+                </p>
+                <div class="pull-right">
+                    <ul class="nav nav-pills payments">
+                        <li><i class="fa fa-cc-visa"></i></li>
+                        <li><i class="fa fa-cc-mastercard"></i></li>
+                        <li><i class="fa fa-cc-amex"></i></li>
+                        <li><i class="fa fa-cc-paypal"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--/.footer-bottom-->
+    </footer>
+    <!-- <script>
+      function sendEmail() {
+        let name = document.getElementById("name ").value;
+        let email = document.getElementById("email ").value;
+        let contact = document.getElementById("contact ").value;
+        let message = document.getElementById("message ").value;
+        
+        sendEmail
+          .send({
+            Host: "smtp.elasticemail.com",
+            Username: "raushanraunak2002@gmail.com",
+            Password: "BEC298D9E74A04A85E5E20D0566E8C91E1CE",
+            To: "raushanraunak2002@gmail.com",
+            Form: document.getElementById("email").value,
+            Subject: "New Contact Form Enquiry",
+          })
+          .then(
+            message => alert(message)
+            );
+      }
+    </script> -->
+    <!--====================Footer ==========Part    ===============-->
+
+    <!--====================Footer ==========Part    ===============-->
+<<<<<<< HEAD
+</body>
+
+</html>
+=======
+  </body>
+</html>
+>>>>>>> 5eaf291252204fb1b0983d1c4ddd313cf9f92425
