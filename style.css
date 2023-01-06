@@ -278,3 +278,14 @@ nav .content .links {
         padding-right: 30px;
     }
 }
+/* For Tablet and Ipad */
+@media (min-width: 901px) and (max-width: 1249px){
+    nav .content .links {
+        margin-left: 63px;
+    }
+    .wrapper nav {
+        max-width: 88%;
+        padding: 0 20px;
+} 
+}
+/* For Tablet and Ipad  Closed*/
